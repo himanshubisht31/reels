@@ -14,6 +14,7 @@ type VideoItem = {
   id: number;
   videoLink: string;
   type: "VIDEO";
+  caption: string;
 };
 
 type CarouselItem = SolidItem | ImageItem | VideoItem;

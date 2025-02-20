@@ -65,36 +65,45 @@ const videosData: VideoItem[] = [
     id: 1,
     videoLink: "https://cdn.pixabay.com/video/2024/08/16/226795_large.mp4",
     type: "VIDEO",
+    caption: "Aerial view of a car driving on a road",
   },
   {
     id: 2,
     videoLink:
       "https://media.istockphoto.com/id/2152228621/video/modern-car-driving-towards-mountain.mp4?s=mp4-640x640-is&k=20&c=sGpCCROFdjksB-_otzolqFpUaYobINPUYSVdGQMK01I=",
     type: "VIDEO",
+    caption: "Modern car driving towards mountain",
   },
   {
     id: 3,
     videoLink:
       "https://media.istockphoto.com/id/1436175177/video/gardena-pass-with-sella-group-and-mt-langkofel-in-the-dolomites-mountains.mp4?s=mp4-640x640-is&k=20&c=duGGFGhJ6YLCaylHiCxiWll2QpupdSv6os5iAfcivHU=",
     type: "VIDEO",
+    caption:
+      "Gardena Pass with Sella Group and Mt Langkofel in the Dolomites mountains",
   },
   {
     id: 4,
     videoLink:
       "https://media.istockphoto.com/id/2184740079/video/car-driving-on-snowy-road-through-forested-wilderness-at-golden-sunset.mp4?s=mp4-640x640-is&k=20&c=aNrlypZoPhKrQLJgdBXsyPnFNiMh_dWcpkns7tAUmLY=",
     type: "VIDEO",
+    caption:
+      "Car driving on snowy road through forested wilderness at golden sunset",
   },
   {
     id: 5,
     videoLink:
       "https://media.istockphoto.com/id/1471314856/video/driving-on-snowy-mountain-roads.mp4?s=mp4-640x640-is&k=20&c=Vj731gn-HmfFV_jdMJICoOa2V1yQrFmrgifIspePGek=",
     type: "VIDEO",
+    caption: "Driving on snowy mountain roads",
   },
   {
     id: 6,
     videoLink:
       "https://media.istockphoto.com/id/2159335201/video/vertical-of-view-from-the-car-driving-by-the-asphalt-road-in-puerto-plata-dominican-republic.mp4?s=mp4-640x640-is&k=20&c=ID8XHtxHnbhqF-xefdf-TWKCfy8-7kAnuaq7vgpGVrQ=",
     type: "VIDEO",
+    caption:
+      "Vertical of view from the car driving by the asphalt road in Puerto Plata, Dominican Republic",
   },
 ];
 

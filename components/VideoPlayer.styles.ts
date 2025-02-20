@@ -52,6 +52,12 @@ const styles = StyleSheet.create({
     alignSelf: "flex-end",
     margin: 10,
   },
+  animatedCaption: {
+    top: "30%",
+    width: "75%",
+    alignSelf: "center",
+    textAlign: "center",
+  },
 });
 
 export default styles;

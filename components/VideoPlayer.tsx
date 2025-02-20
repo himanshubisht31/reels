@@ -1,20 +1,41 @@
 import { Entypo, Ionicons, Octicons } from "@expo/vector-icons";
 import { AVPlaybackStatus, ResizeMode, Video } from "expo-av";
 import { useEffect, useRef, useState } from "react";
-import { Pressable, Text, View } from "react-native";
+import { Animated, Pressable, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import styles from "./VideoPlayer.styles";
 
 type VideoPlayerProps = {
   id: number;
   videoLink: string;
+  caption: string;
   activePostId: number;
 };
 
-const VideoPlayer = ({ id, videoLink, activePostId }: VideoPlayerProps) => {
+const delay = 1000;
+
+const VideoPlayer = ({
+  id,
+  videoLink,
+  activePostId,
+  caption,
+}: VideoPlayerProps) => {
   const videoRef = useRef<Video>(null);
   const [status, setStatus] = useState<AVPlaybackStatus>();
   const [isMuted, setIsMuted] = useState(false);
+
+  const opacity = useRef(new Animated.Value(0)).current;
+
+  useEffect(() => {
+    if (activePostId === id) {
+      Animated.timing(opacity, {
+        toValue: 1,
+        duration: 500,
+        delay,
+        useNativeDriver: true,
+      }).start();
+    }
+  }, [opacity, activePostId]);
 
   const isPlaying = status?.isLoaded && status.isPlaying;
 
@@ -70,6 +91,18 @@ const VideoPlayer = ({ id, videoLink, activePostId }: VideoPlayerProps) => {
             color="rgba(255, 255, 255, 0.6)"
           />
         )}
+
+        <Animated.Text
+          style={[
+            styles.likeText,
+            styles.animatedCaption,
+            {
+              opacity,
+            },
+          ]}
+        >
+          {caption}
+        </Animated.Text>
         <Pressable style={styles.muteButton} onPress={handleAudio}>
           {isMuted ? (
             <Octicons name="mute" color="white" size={50} />

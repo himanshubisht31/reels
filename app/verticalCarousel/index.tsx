@@ -52,6 +52,7 @@ const VerticalCarousel: React.FC = () => {
           activePostId={activePostId}
           id={item.id}
           videoLink={item.videoLink}
+          caption={item.caption}
         />
       );
     } else {
