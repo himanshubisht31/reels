@@ -43,11 +43,6 @@ const imagesData: ImageItem[] = [
     type: "IMAGE",
   },
   {
-    id: 8,
-    link: "https://images.pexels.com/photos/3493770/pexels-photo-3493770.jpeg?w=720&h=1280&fit=crop",
-    type: "IMAGE",
-  },
-  {
     id: 9,
     link: "https://images.pexels.com/photos/277253/pexels-photo-277253.jpeg?w=720&h=1280&fit=crop",
     type: "IMAGE",
