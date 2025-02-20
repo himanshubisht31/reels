@@ -35,16 +35,12 @@ npm run reset-project
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+## Features implemented
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Video Player: A custom video player component with play/pause and mute/unmute functionality.
+IconWithText Component: A reusable component for displaying an icon with text.
+Vertical Carousel: A screen that displays a vertical carousel of images and solid color blocks.
+Solid: Display solid color blocks in the vertical carousel.
+Images: Display images in the vertical carousel.
+Navigation: File-based routing using Expo Router.
+Styling: Consistent styling using StyleSheet for better separation of concerns.
