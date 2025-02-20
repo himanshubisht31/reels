@@ -1,43 +1,53 @@
-# Welcome to your Expo app 👋
+# Welcome to Your Expo App 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This project was generated using [Expo](https://expo.dev) with the help of [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+## 🚀 Getting Started
 
-1. Install dependencies
+Follow these steps to get your app up and running:
 
-   ```bash
-   npm install
-   ```
+1.  **Install Dependencies:**
 
-2. Build the app
+    ```bash
+    npm install
+    ```
 
-   ```bash
-    npm run android or npm run ios
-   ```
+2.  **Build and Run:**
 
-3. Start the app
+    Choose your target platform:
 
-   ```bash
+    - **Android:**
+
+      ```bash
+      npm run android
+      ```
+
+    - **iOS:**
+
+      ```bash
+      npm run ios
+      ```
+
+3.  **Start Development Server:**
+
+    ```bash
     npx expo start
-   ```
+    ```
 
-## Features implemented
+## ✨ Implemented Features
 
-# Vertical Carousel: _A screen that displays a vertical carousel of images and solid color blocks._
+This app showcases the following features:
 
-# Video Player: _A custom video player component with play/pause and mute/unmute functionality._
+- **Vertical Carousel:** A dynamic screen displaying a vertical carousel of images and solid color blocks.
+- **Custom Video Player:** A feature-rich video player with play/pause and mute/unmute controls.
+- **Animated Captions:** Captions that smoothly animate into view when the video becomes active.
+- **Image Display:** Seamless integration of images within the vertical carousel.
+- **Solid Color Blocks:** Inclusion of solid color blocks in the carousel for visual variety.
+- **File-Based Routing:** Efficient navigation powered by Expo Router.
+- **Consistent Styling:** Clean and maintainable styling using `StyleSheet`.
 
-# Caption: _Display a caption with animation when the video becomes active._
+## 🔗 Demo Link
 
-# Images: _Display images in the vertical carousel._
+View the demo here:
 
-# Solid: _Display solid color blocks in the vertical carousel._
-
-# Navigation: _File-based routing using Expo Router._
-
-# Styling: _Consistent styling using StyleSheet for better separation of concerns._
-
-## Demo Link
-
-## https://drive.google.com/file/d/1CRp8clwhQxAM4v0rSJW-_rQKbLGDQdan/view?usp=drive_link
+[https://drive.google.com/file/d/1CRp8clwhQxAM4v0rSJW-\_rQKbLGDQdan/view?usp=drive_link](https://drive.google.com/file/d/1CRp8clwhQxAM4v0rSJW-_rQKbLGDQdan/view?usp=drive_link)
