@@ -54,4 +54,10 @@ const imagesData: ImageItem[] = [
   },
 ];
 
-export { imagesData, solidData };
+const tileData = [
+  { id: 1, title: "VIDEO", color: "#ffcebe" },
+  { id: 2, title: "IMAGE", color: "#ffe3c0" },
+  { id: 3, title: "SOLID", color: "#ffe9f0" },
+];
+
+export { imagesData, solidData, tileData };

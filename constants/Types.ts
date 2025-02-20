@@ -12,4 +12,9 @@ type ImageItem = {
 
 type CarouselItem = SolidItem | ImageItem;
 
-export { SolidItem, ImageItem, CarouselItem };
+type TileProps = {
+  title: string;
+  color: string;
+};
+
+export { SolidItem, ImageItem, CarouselItem, TileProps };
