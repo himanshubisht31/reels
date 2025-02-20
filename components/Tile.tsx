@@ -7,7 +7,7 @@ const Tile = ({ title, color }: TileProps) => {
     <Pressable
       onPress={() =>
         push({
-          pathname: "/explore",
+          pathname: "/verticalCarousel",
           params: {
             type: title,
           },

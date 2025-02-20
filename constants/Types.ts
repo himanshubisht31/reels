@@ -10,11 +10,16 @@ type ImageItem = {
   type: "IMAGE";
 };
 
-type CarouselItem = SolidItem | ImageItem;
+type VideoItem = {
+  id: number;
+  videoLink: string;
+  type: "VIDEO";
+};
 
+type CarouselItem = SolidItem | ImageItem | VideoItem;
 type TileProps = {
   title: string;
   color: string;
 };
 
-export { SolidItem, ImageItem, CarouselItem, TileProps };
+export { SolidItem, ImageItem, CarouselItem, TileProps, VideoItem };

@@ -1,4 +1,4 @@
-import { ImageItem, SolidItem } from "./Types";
+import { ImageItem, SolidItem, VideoItem } from "./Types";
 
 const solidData: SolidItem[] = Array.from({ length: 5 }, (_, index) => ({
   id: index + 1,
@@ -60,4 +60,42 @@ const tileData = [
   { id: 3, title: "SOLID", color: "#ffe9f0" },
 ];
 
-export { imagesData, solidData, tileData };
+const videosData: VideoItem[] = [
+  {
+    id: 1,
+    videoLink: "https://cdn.pixabay.com/video/2024/08/16/226795_large.mp4",
+    type: "VIDEO",
+  },
+  {
+    id: 2,
+    videoLink:
+      "https://media.istockphoto.com/id/2152228621/video/modern-car-driving-towards-mountain.mp4?s=mp4-640x640-is&k=20&c=sGpCCROFdjksB-_otzolqFpUaYobINPUYSVdGQMK01I=",
+    type: "VIDEO",
+  },
+  {
+    id: 3,
+    videoLink:
+      "https://media.istockphoto.com/id/1436175177/video/gardena-pass-with-sella-group-and-mt-langkofel-in-the-dolomites-mountains.mp4?s=mp4-640x640-is&k=20&c=duGGFGhJ6YLCaylHiCxiWll2QpupdSv6os5iAfcivHU=",
+    type: "VIDEO",
+  },
+  {
+    id: 4,
+    videoLink:
+      "https://media.istockphoto.com/id/2184740079/video/car-driving-on-snowy-road-through-forested-wilderness-at-golden-sunset.mp4?s=mp4-640x640-is&k=20&c=aNrlypZoPhKrQLJgdBXsyPnFNiMh_dWcpkns7tAUmLY=",
+    type: "VIDEO",
+  },
+  {
+    id: 5,
+    videoLink:
+      "https://media.istockphoto.com/id/1471314856/video/driving-on-snowy-mountain-roads.mp4?s=mp4-640x640-is&k=20&c=Vj731gn-HmfFV_jdMJICoOa2V1yQrFmrgifIspePGek=",
+    type: "VIDEO",
+  },
+  {
+    id: 6,
+    videoLink:
+      "https://media.istockphoto.com/id/2159335201/video/vertical-of-view-from-the-car-driving-by-the-asphalt-road-in-puerto-plata-dominican-republic.mp4?s=mp4-640x640-is&k=20&c=ID8XHtxHnbhqF-xefdf-TWKCfy8-7kAnuaq7vgpGVrQ=",
+    type: "VIDEO",
+  },
+];
+
+export { imagesData, solidData, tileData, videosData };

@@ -1,5 +1,5 @@
 import { Tile } from "@/components/Tile";
-import { tileData } from "@/constants/DummyData";
+import { tileData } from "@/constants/Data";
 import { StyleSheet, View } from "react-native";
 
 export default function HomeScreen() {

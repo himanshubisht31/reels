@@ -27,6 +27,7 @@ export default function RootLayout() {
     <Stack>
       <StatusBar style="auto" />
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+      <Stack.Screen name="verticalCarousel" options={{ headerShown: false }} />
       <Stack.Screen name="+not-found" />
     </Stack>
   );
