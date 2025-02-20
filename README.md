@@ -1,6 +1,10 @@
-# Welcome to Your Expo App 👋
+# Reels App 👋
 
-This project was generated using [Expo](https://expo.dev) with the help of [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 🔗 Demo Link
+
+View the demo here:
+
+[https://drive.google.com/file/d/1CRp8clwhQxAM4v0rSJW-\_rQKbLGDQdan/view?usp=drive_link](https://drive.google.com/file/d/1CRp8clwhQxAM4v0rSJW-_rQKbLGDQdan/view?usp=drive_link)
 
 ## 🚀 Getting Started
 
@@ -45,9 +49,3 @@ This app showcases the following features:
 - **Solid Color Blocks:** Inclusion of solid color blocks in the carousel for visual variety.
 - **File-Based Routing:** Efficient navigation powered by Expo Router.
 - **Consistent Styling:** Clean and maintainable styling using `StyleSheet`.
-
-## 🔗 Demo Link
-
-View the demo here:
-
-[https://drive.google.com/file/d/1CRp8clwhQxAM4v0rSJW-\_rQKbLGDQdan/view?usp=drive_link](https://drive.google.com/file/d/1CRp8clwhQxAM4v0rSJW-_rQKbLGDQdan/view?usp=drive_link)
