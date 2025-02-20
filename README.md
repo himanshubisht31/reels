@@ -42,5 +42,6 @@ IconWithText Component: A reusable component for displaying an icon with text.
 Vertical Carousel: A screen that displays a vertical carousel of images and solid color blocks.
 Solid: Display solid color blocks in the vertical carousel.
 Images: Display images in the vertical carousel.
+Caption: Display a caption with animation when the video becomes active.
 Navigation: File-based routing using Expo Router.
 Styling: Consistent styling using StyleSheet for better separation of concerns.
