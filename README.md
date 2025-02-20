@@ -24,19 +24,19 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 ## Features implemented
 
-## Vertical Carousel: A screen that displays a vertical carousel of images and solid color blocks.
+# Vertical Carousel: _A screen that displays a vertical carousel of images and solid color blocks._
 
-## Video Player: A custom video player component with play/pause and mute/unmute functionality.
+# Video Player: _A custom video player component with play/pause and mute/unmute functionality._
 
-## Caption: Display a caption with animation when the video becomes active.
+# Caption: _Display a caption with animation when the video becomes active._
 
-## Images: Display images in the vertical carousel.
+# Images: _Display images in the vertical carousel._
 
-## Solid: Display solid color blocks in the vertical carousel.
+# Solid: _Display solid color blocks in the vertical carousel._
 
-## Navigation: File-based routing using Expo Router.
+# Navigation: _File-based routing using Expo Router._
 
-## Styling: Consistent styling using StyleSheet for better separation of concerns.
+# Styling: _Consistent styling using StyleSheet for better separation of concerns._
 
 ## Demo Link
 
